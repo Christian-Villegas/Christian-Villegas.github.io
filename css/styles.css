@@ -1,0 +1,171 @@
+
+  p {
+    font: 2vw Arial, Helvetica, sans-serif; 
+    font-weight: 200
+    padding-left: 50px;
+  }
+
+  p.descr{
+    font-size: 20px;
+    text-indent: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: "Times New Roman";
+  }
+
+  .picture{
+    text-align: center;
+  }
+  
+  h1 {
+    font: underline bold 30px;
+    text-decoration: underline;
+    padding-left: 30px;
+  }
+  
+  h2 {
+    font: italic bold 35px Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-decoration: underline;
+  }
+  
+  center {
+    font: bold 40px Arial, Helvetica, sans-serif;
+    color: White;
+  }
+  
+
+  
+  .projects {
+    width:100%
+    margin:0 auto;
+   }
+   
+   .space{
+      padding-bottom: 8px;
+   }
+   
+   .email{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: White;
+    margin-top: 15px;
+    margin-bottom: 15px;
+   }
+   
+   .header{
+      background-color: #6E0D25; 
+      width:100%;
+      padding-top: 10px;
+      text-align: center;
+   }
+   
+   body{
+    font-family: Arial;
+    margin: 0 auto;
+   }
+   
+   .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+    border: 15px;
+  }
+   
+   
+  button {
+      background-color: White;
+      border: none;
+      color: SteelBlue;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+
+#menu
+  {
+    position: absolute;
+    top: 2em;
+    right: 0;
+  }
+  
+  #menu ul
+  {
+    display: inline-block;
+  }
+  
+  #menu li
+  {
+    display: block;
+    float: left;
+    text-align: center;
+  }
+  
+  #menu li a, #menu li span
+  {
+    padding: 0.7em 1.5em;
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+  }
+  
+  #menu li:hover a, #menu li.active a, #menu li.active span
+  {
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    color: rgba(255,255,255,0.8);
+  }
+  
+      
+  @media screen and (max-width: 400px) {
+
+    .header{
+      background-color: #6E0D25; 
+      width:100%;
+      padding-top: 10px;
+      text-align: center;
+   }
+      
+    center {
+      font: bold 7vw Arial, Helvetica, sans-serif;
+      color: White;
+    }
+      
+    .main {
+      width:85%;
+      margin:0 auto;
+    
+    }
+      
+    h2 {
+      font: italic bold 20px Arial, Helvetica, sans-serif;
+    }
+      
+    .email{
+      font: 5vw Arial, Helvetica, sans-serif;
+    }
+      
+    button {
+      background-color: White;
+      border: none;
+      color: SteelBlue;
+      padding: 12px 24px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 12px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    
+    p {
+    font: 2vw Arial, Helvetica, sans-serif; 
+    font-weight: 200
+    padding-left: 50px;
+    }
+
+  } 

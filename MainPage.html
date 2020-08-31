@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<div  class = "header">
+	<p class = "profImage">
+		<center><img src="css/selfie.jpg" style = "border-radius: 50%" alt = "Headshot"></center>
+	</p>
+	<div id = "title">
+		<center>Christian Villegas</center>
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="MainPage.html" accesskey="1" title="">Projects</a></li>
+				<li><a href="AboutMe.html" accesskey="3" title="">About Me</a></li>
+				<li><a href="ContactMe.html" accesskey="3" title="">Contact Info</a></li>
+			</ul>
+		</div>
+		<center class = "email" style = "color:white"> crvill@sas.upenn.edu</center>
+		<center><button onclick= "window.location.href='https://github.com/Christian-Villegas';"> Github </button>
+		<button onclick= "window.location.href='https://www.linkedin.com/in/christianvillegas2022/';"> LinkedIn </button></center>
+	</div>
+</div>
+<div class = "divBody">
+	<div class = "projects">
+		<div>
+			<h2>The G.O.A.T. Calculator - Java</h2>
+			<div class = "example">
+				<video class = "picture" width = "750" height = "420" poster= "" border = "5" controls>
+					<source src="css/GOAT.mp4" type="video/mp4">
+				</video>
+			</div>
+			<p class = "descr">This was a project that I created to answer the decades-old question: "Who is the greatest basketball player of all time? Who is the GOAT?" I completed this goal through the use of <b>web-scraping in JSoup</b>, <b>REGEX</b>, and <b>Priority Queues</b>. I devised an algorithm that would allocate points to players who won the most games against other players, as well as compare teammates between each other. Initially the calculator only looked at a default set of statistics to compare players, however, I modified the code to take in a user input of which statistics they'd like to base the calculations on.</p>
+		</div>
+		<div>
+			<h2>ProductiviT - Swift</h2>
+			<p class = "picture"><img src="css/ss1.png" width = "30%"><img src="css/ss2.png" width = "30%"></p>
+			<p class = "descr">Due to the pandemic, I lost my chance to secure an official internship over this Summer, and as a result I decided to take matters into my own hands. Over this extended break, I put together a team of 3 like-minded, dedicated programmers to create this app in Swift. We decided that, because of the state of the world with everyone working from home, that we'd create a productivity app. I was in charge of writing the parent class and each of the individual classes of the specific widgets. Some of the Object Oriented Design principles I used included inheritance and virtual functions. Working on this project also gave me the opportunity to learn about available class methods through the Apple documentation. I am aware of the importance of understanding documentation when working with new technologies. Lastly, I was took this as an opportunity to work on a large-scale product with a team which proved to be difficult at first. Eventually, collaborating with the other programmers through the use of technologies such as Github, Google Drive, and Zoom proved to be helpful because we all had different perspectives on solutions.</p>
+		</div>
+		<div>
+			<h2>JavaBlast - Java</h2>
+			<div class = "example">
+				<video class = "picture" width = "345" height = "420" poster= "css/jbThumb.jpg" controls>
+					<source src="css/jb.mp4" type="video/mp4">
+				</video>
+			</div>
+			<p class = descr>This project was inspired by the popular iOS game, Ball Blast that I used to play a lot in high school riding the bus to school. The objective of the game is to avoid the falling balls and to shoot them as they fall. Each hit is a designated amount of points. As the larger balls lose more health, they break apart and become smaller, making the game more difficult as you move forward. This was some of my first experience with <b>inheritance</b>, <b>abstract functions</b>, and <b>ArrayLists</b>. Through the use of several Java libraries such as <b>AWT Graphics</b>, <b>Java Swing </b>, and <b>File I/O</b> I was able to make a fun interactive game that records high scores.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html> 
